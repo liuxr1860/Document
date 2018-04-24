@@ -15,3 +15,4 @@ $ git config --global user.email "your_email@youremail.com"
 5.git commit -m "注释信息"
 6.git push
 7.git pull更新代码
+repo sink
