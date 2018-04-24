@@ -1,0 +1,9 @@
+for example ,add a file named "README.md"
+
+create a new repository on the command line
+echo "# Code_JAVA" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/liuxr1860/Code_JAVA.git
+git push -u origin master
