@@ -1,3 +1,9 @@
-GithubÅäÖÃ:
+Githubé…ç½®:
 
-1.Ê×ÏÈÔÚ±¾µØ´´½¨ssh key£» $ ssh-keygen -t rsa -C "your_email@youremail.com" ºóÃæµÄyour_email@youremail.com¸ÄÎªÄãÔÚgithubÉÏ×¢²áµÄÓÊÏä£¬Ö®ºó»áÒªÇóÈ·ÈÏÂ·¾¶ºÍÊäÈëÃÜÂë£¬ÎÒÃÇÕâÊ¹ÓÃÄ¬ÈÏµÄÒ»Â·»Ø³µ¾ÍĞĞ¡£³É¹¦µÄ»°»áÔÚ~/ÏÂÉú³É.sshÎÄ¼ş¼Ğ£¬½øÈ¥£¬´ò¿ªid_rsa.pub£¬¸´ÖÆÀïÃæµÄkey¡£ »Øµ½githubÉÏ£¬½øÈë Account Settings£¨ÕË»§ÅäÖÃ£©£¬×ó±ßÑ¡ÔñSSH Keys£¬Add SSH Key,titleËæ±ãÌî£¬Õ³ÌùÔÚÄãµçÄÔÉÏÉú³ÉµÄkey¡£ 2.ÎªÁËÑéÖ¤ÊÇ·ñ³É¹¦£¬ÔÚgit bashÏÂÊäÈë£º $ ssh -T git@github.com Èç¹ûÊÇµÚÒ»´ÎµÄ»áÌáÊ¾ÊÇ·ñcontinue£¬ÊäÈëyes¾Í»á¿´µ½£ºYou've successfully authenticated, but GitHub does not provide shell access ¡£Õâ¾Í±íÊ¾ÒÑ³É¹¦Á¬ÉÏgithub¡£ ½ÓÏÂÀ´ÎÒÃÇÒª×öµÄ¾ÍÊÇ°Ñ±¾µØ²Ö¿â´«µ½githubÉÏÈ¥£¬ÔÚ´ËÖ®Ç°»¹ĞèÒªÉèÖÃusernameºÍemail£¬ÒòÎªgithubÃ¿´Îcommit¶¼»á¼ÇÂ¼ËûÃÇ¡£ $ git config --global user.name "your name" $ git config --global user.email "your_email@youremail.com" 3.$ git clone https://github.com/liuxr1860/my_github.git 4.ĞŞ¸Äºógit add ÎÄ¼şÃû»òÕßgit add . 5.git commit -m "×¢ÊÍĞÅÏ¢" 6.git push 7.git pull¸üĞÂ´úÂë repo sink
+1.é¦–å…ˆåœ¨æœ¬åœ°åˆ›å»ºssh keyï¼› $ ssh-keygen -t rsa -C "your_email@youremail.com" åé¢çš„your_email@youremail.comæ”¹ä¸ºä½ åœ¨githubä¸Šæ³¨å†Œçš„é‚®ç®±ï¼Œä¹‹åä¼šè¦æ±‚ç¡®è®¤è·¯å¾„å’Œè¾“å…¥å¯†ç ï¼Œæˆ‘ä»¬è¿™ä½¿ç”¨é»˜è®¤çš„ä¸€è·¯å›è½¦å°±è¡Œã€‚æˆåŠŸçš„è¯ä¼šåœ¨~/ä¸‹ç”Ÿæˆ.sshæ–‡ä»¶å¤¹ï¼Œè¿›å»ï¼Œæ‰“å¼€id_rsa.pubï¼Œå¤åˆ¶é‡Œé¢çš„keyã€‚ å›åˆ°githubä¸Šï¼Œè¿›å…¥ Account Settingsï¼ˆè´¦æˆ·é…ç½®ï¼‰ï¼Œå·¦è¾¹é€‰æ‹©SSH Keysï¼ŒAdd SSH Key,titleéšä¾¿å¡«ï¼Œç²˜è´´åœ¨ä½ ç”µè„‘ä¸Šç”Ÿæˆçš„keyã€‚ 
+2.ä¸ºäº†éªŒè¯æ˜¯å¦æˆåŠŸï¼Œåœ¨git bashä¸‹è¾“å…¥ï¼š $ ssh -T git@github.com å¦‚æœæ˜¯ç¬¬ä¸€æ¬¡çš„ä¼šæç¤ºæ˜¯å¦continueï¼Œè¾“å…¥yeså°±ä¼šçœ‹åˆ°ï¼šYou've successfully authenticated, but GitHub does not provide shell access ã€‚è¿™å°±è¡¨ç¤ºå·²æˆåŠŸè¿ä¸Šgithubã€‚ æ¥ä¸‹æ¥æˆ‘ä»¬è¦åšçš„å°±æ˜¯æŠŠæœ¬åœ°ä»“åº“ä¼ åˆ°githubä¸Šå»ï¼Œåœ¨æ­¤ä¹‹å‰è¿˜éœ€è¦è®¾ç½®usernameå’Œemailï¼Œå› ä¸ºgithubæ¯æ¬¡commitéƒ½ä¼šè®°å½•ä»–ä»¬ã€‚ $ git config --global user.name "your name" $ git config --global user.email "your_email@youremail.com" 
+3.$ git clone https://github.com/liuxr1860/my_github.git 
+4.ä¿®æ”¹ågit add æ–‡ä»¶åæˆ–è€…git add . 
+5.git commit -m "æ³¨é‡Šä¿¡æ¯" 
+6.git push 
+7.git pullæ›´æ–°ä»£ç  repo sink
